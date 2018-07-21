@@ -4,9 +4,9 @@ Good Flix
 
 ## Team
 
-  - __Product Owner__: teamMember
-  - __Scrum Master__: teamMember
-  - __Development Team Members__: teamMember, teamMember
+  - __Product Owner__: Jon Thomas
+  - __Scrum Master__: Pooja Subramanian
+  - __Development Team Members__: Shankar Dhanaraj, Pooja Subramanian, Jon Thomas
 
 ## Table of Contents
 
@@ -20,15 +20,14 @@ Good Flix
 
 ## Usage
 
-> Some usage instructions
+> Use GoodFlix to search movies and add them to your recently watched list, watched list, and add other users you are following
 
 ## Requirements
 
 - Node 0.10.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
+- Express
+- React
+- Mongoose
 
 ## Development
 
@@ -40,6 +39,9 @@ From within the root directory:
 sudo npm install -g bower
 npm install
 bower install
+npm run db
+npm run react-dev
+npm run start-dev
 ```
 
 ### Roadmap
