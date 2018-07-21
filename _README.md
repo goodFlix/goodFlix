@@ -24,10 +24,7 @@ Good Flix
 
 ## Requirements
 
-- Node 0.10.x
-- Express
-- React
-- Mongoose
+All requirements are downloaded with npm install below..
 
 ## Development
 
@@ -36,9 +33,7 @@ Good Flix
 From within the root directory:
 
 ```sh
-sudo npm install -g bower
-npm install
-bower install
+sudo npm install --save
 npm run db
 npm run react-dev
 npm run start-dev
